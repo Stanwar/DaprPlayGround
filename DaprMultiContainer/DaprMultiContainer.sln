@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFrontEnd", "MyFrontEnd\MyFrontEnd.csproj", "{CB1EE064-2862-4D07-8BE6-F7B931C197FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBackEnd", "MyBackEnd\MyBackEnd.csproj", "{63AA8C56-29BC-400B-94AF-8A1FB8B5DB33}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{2D62BDDC-EEC3-4505-8F73-5AB6C3BB3652}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB1EE064-2862-4D07-8BE6-F7B931C197FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB1EE064-2862-4D07-8BE6-F7B931C197FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB1EE064-2862-4D07-8BE6-F7B931C197FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB1EE064-2862-4D07-8BE6-F7B931C197FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63AA8C56-29BC-400B-94AF-8A1FB8B5DB33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63AA8C56-29BC-400B-94AF-8A1FB8B5DB33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63AA8C56-29BC-400B-94AF-8A1FB8B5DB33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63AA8C56-29BC-400B-94AF-8A1FB8B5DB33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D62BDDC-EEC3-4505-8F73-5AB6C3BB3652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D62BDDC-EEC3-4505-8F73-5AB6C3BB3652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D62BDDC-EEC3-4505-8F73-5AB6C3BB3652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D62BDDC-EEC3-4505-8F73-5AB6C3BB3652}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {682BD8ED-9B3F-4835-BABA-B8FB8D35146D}
+	EndGlobalSection
+EndGlobal
